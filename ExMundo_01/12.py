@@ -1,0 +1,6 @@
+print('='*20)
+produto = input('PRODUTO: ')
+precoprod = float(input('PRECO PRODUTO:  '))
+precovenda = precoprod-(precoprod*0.05)
+print('PREÇO DE VENDA PARA PRODUTO: {} / R$ {:.2f} COM DESCONTO '.format(produto, precovenda))
+print('='*20)

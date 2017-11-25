@@ -1,0 +1,5 @@
+print('='*20)
+numero = int(input('Digite um numero: '))
+print('O número digitado é:',numero)
+print('O sucessor do número digitado é {}'.format(numero+1))
+print('O antecessor do número digitado é {}'.format(numero-1))
